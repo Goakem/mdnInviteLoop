@@ -26,5 +26,3 @@ for (let i = 0; i < people.length; i++) {
         admitted.textContent += `${people[i]}, `
     }
 }
-// refused.textContent += ...;
-// admitted.textContent += ...;
