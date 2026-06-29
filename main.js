@@ -17,14 +17,13 @@ refused.textContent = "Refuse: ";
 
 // loop starts here
 
-//let newArray = 
 for (let i = 0; i < people.length; i++) {
-    if ((i === 'Phil') || (i === 'Lola')) {
+    if ((people[i] === 'Phil') || (people[i] === 'Lola')) {
         refused.textContent += `${i}`;
     } else if (i === people.length - 1) {
-        admitted.textContent += `${i}.`;
+        admitted.textContent += `${people[i]}.`;
     } else {
-        admitted.textContent += `${i},`
+        admitted.textContent += `${people[i]},`
     }
 }
 // refused.textContent += ...;
